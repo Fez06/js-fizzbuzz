@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(89, 34, 125);
+    text-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    max-width: 2000px;
+    padding: 50px;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 10px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.fizzbuzz {
+    background-color: rgb(255, 149, 0);
+}
+
+.buzz {
+    background-color: black;
+    color: lightgray;
+}
+
+.fizz {
+    background-color: rgb(13, 233, 13);
+}
+
+.normal {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 90px;
+}
